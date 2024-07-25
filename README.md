@@ -8,10 +8,10 @@ Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-[My GitHub](https://github.com/elasri21)
-[Demo](https://elasri21.github.io/product_list_with_cart/)
-[Linkedin](https://www.linkedin.com/in/mohamed-elasri-a4ab8815a/)
-[Twitter or X](https://x.com/ELASRI08455745)
+[My GitHub](https://github.com/elasri21) GitHub for more project.
+[Demo](https://elasri21.github.io/product_list_with_cart/) Live Site.
+[Linkedin](https://www.linkedin.com/in/mohamed-elasri-a4ab8815a/) Linkedin page.
+[Twitter or X](https://x.com/ELASRI08455745) Twitter.
 **To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
 
 ## The challenge
