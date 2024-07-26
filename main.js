@@ -80,6 +80,14 @@ async function getData() {
             <img class="empty-img" src="./assets/images/illustration-empty-cart.svg" alt="">
             <p>Your added items will appear here</p>
           </div>`;
+      if (cartList.length == 0) {
+        addBtns.forEach((btn, j) => {
+          btn.innerHTML = `
+              <i class="fa-solid fa-cart-plus"></i>
+              <span>add to cart</span>`;
+        });
+      }
+      return;
     }
     cartList.forEach((it, index) => {
       let item = document.createElement("div");
@@ -145,13 +153,6 @@ async function getData() {
         })
       );
     });
-    if (cartList.length == 0) {
-      addBtns.forEach((btn, j) => {
-        btn.innerHTML = `
-            <i class="fa-solid fa-cart-plus"></i>
-            <span>add to cart</span>`;
-      });
-    }
   
     const confirmBtn = document.querySelector(".confirm-btn");
     confirmBtn.addEventListener("click", function () {
@@ -194,6 +195,7 @@ async function getData() {
       cartList[index].quantity--;
     } else {
       cartList.splice(index, 1);
+      return;
     }
     document.querySelector(".total-to-pay.bold").textContent = updateAllPrice();
     getAllItems();
